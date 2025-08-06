@@ -48,5 +48,31 @@
     "components": [
       "tabs-item"
     ]
+  },
+  {
+    "id": "testimonial",
+    "fields": [
+      {
+        "component": "select",
+        "name": "classes",
+        "value": "",
+        "label": "Style Variant",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Centered",
+            "value": "centered"
+          },
+          {
+            "name": "Compact",
+            "value": "compact"
+          }
+        ]
+      }
+    ]
   }
 ]

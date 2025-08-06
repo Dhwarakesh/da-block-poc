@@ -224,6 +224,38 @@
     ]
   },
   {
+    "id": "testimonial",
+    "fields": [
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "div:nth-child(1)",
+        "value": "",
+        "label": "Quote",
+        "description": "The testimonial quote text",
+        "required": true
+      },
+      {
+        "component": "richtext",
+        "name": "div:nth-child(2)",
+        "value": "",
+        "label": "Author Info",
+        "description": "Author name, title, and company",
+        "valueType": "string",
+        "required": true
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "div:nth-child(3)",
+        "value": "",
+        "label": "Author Image",
+        "description": "Photo of the testimonial author",
+        "required": false
+      }
+    ]
+  },
+  {
     "id": "video",
     "fields": [
       {

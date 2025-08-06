@@ -1,0 +1,79 @@
+{
+  "definitions": [
+    {
+      "title": "Testimonial",
+      "id": "testimonial",
+      "plugins": {
+        "da": {
+          "name": "testimonial",
+          "rows": 1,
+          "columns": 3
+        }
+      },
+      "model": "testimonial",
+      "filter": "testimonial"
+    }
+  ],
+  "models": [
+    {
+      "id": "testimonial",
+      "fields": [
+        {
+          "component": "richtext",
+          "valueType": "string",
+          "name": "div:nth-child(1)",
+          "value": "",
+          "label": "Quote",
+          "description": "The testimonial quote text",
+          "required": true
+        },
+        {
+          "component": "richtext",
+          "name": "div:nth-child(2)",
+          "value": "",
+          "label": "Author Info",
+          "description": "Author name, title, and company",
+          "valueType": "string",
+          "required": true
+        },
+        {
+          "component": "reference",
+          "valueType": "string", 
+          "name": "div:nth-child(3)",
+          "value": "",
+          "label": "Author Image",
+          "description": "Photo of the testimonial author",
+          "required": false
+        }
+      ]
+    }
+  ],
+  "filters": [
+    {
+      "id": "testimonial",
+      "fields": [
+        {
+          "component": "select",
+          "name": "classes",
+          "value": "",
+          "label": "Style Variant",
+          "valueType": "string",
+          "options": [
+            {
+              "name": "Default",
+              "value": ""
+            },
+            {
+              "name": "Centered", 
+              "value": "centered"
+            },
+            {
+              "name": "Compact",
+              "value": "compact"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

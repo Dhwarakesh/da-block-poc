@@ -165,6 +165,19 @@
           }
         },
         {
+          "title": "Testimonial",
+          "id": "testimonial",
+          "plugins": {
+            "da": {
+              "name": "testimonial",
+              "rows": 1,
+              "columns": 3
+            }
+          },
+          "model": "testimonial",
+          "filter": "testimonial"
+        },
+        {
           "title": "Video",
           "id": "video",
           "plugins": {
